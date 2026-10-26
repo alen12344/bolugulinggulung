@@ -4,12 +4,12 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'Bolu Gulung Guling - Sensasi Bolu Lembut & Melting | Technopreneur 2026',
-  description: 'Toko kue bolu gulung terbaik di Kota Metro, Lampung. Dibuat dengan mentega premium, isian melimpah, dan checkout otomatis dengan QRIS & Virtual Account. Proyek Bisnis Technopreneur 2026.',
-  keywords: ['Bolu Gulung', 'Kue Bolu Metro', 'Bolu Gulung Guling', 'Bolu Keju Lumer', 'Bolu Cokelat Nutella', 'Kue Lampung', 'Technopreneurship 2026'],
+  title: 'Bolu Gulung Guling - Toko Bolu Lembut & Melting Premium | Metro, Lampung',
+  description: 'Toko kue bolu gulung terbaik di Kota Metro, Lampung. Dibuat dengan mentega premium, isian melimpah, checkout otomatis dengan QRIS & berbagai metode pembayaran. Pengiriman ke seluruh Indonesia.',
+  keywords: ['Bolu Gulung', 'Kue Bolu Metro', 'Bolu Gulung Guling', 'Bolu Keju Lumer', 'Bolu Cokelat Nutella', 'Kue Lampung', 'Toko Kue Online Metro'],
   openGraph: {
-    title: 'Bolu Gulung Guling - Sensasi Bolu Lembut & Melting | Technopreneur 2026',
-    description: 'Pesan Bolu Gulung Keju & Cokelat Best Seller Online. Pengiriman Otomatis RajaOngkir & Payment Gateway Midtrans QRIS/VA/E-Wallet.',
+    title: 'Bolu Gulung Guling - Bolu Lembut & Melting Premium',
+    description: 'Pesan Bolu Gulung Keju & Cokelat Best Seller Online. Pengiriman ke seluruh Indonesia dengan QRIS, Transfer Bank & E-Wallet.',
     url: 'https://bolugulungguling.com',
     siteName: 'Bolu Gulung Guling',
     locale: 'id_ID',

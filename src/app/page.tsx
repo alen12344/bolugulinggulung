@@ -85,12 +85,12 @@ export default function HomePage() {
               
               <div className="inline-flex items-center gap-2 bg-pink-200/90 border border-pink-300 px-4 py-2 rounded-full text-pink-900 text-xs sm:text-sm font-extrabold shadow-sm">
                 <Sparkles className="w-4 h-4 text-pink-600 animate-bounce" />
-                <span>Bisnis Kuliner Digital • Mata Kuliah Technopreneurship 2026</span>
+                <span>🎂 Fresh Oven Setiap Hari • Metro, Lampung</span>
               </div>
 
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-gray-900 tracking-tight leading-[1.15]">
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-gray-900 tracking-tight">
                 Kelembutan Sempurna{' '}
-                <span className="bg-gradient-to-r from-pink-600 via-pink-500 to-rose-600 bg-clip-text text-transparent block mt-1">
+                <span className="bg-gradient-to-r from-pink-600 via-pink-500 to-rose-600 bg-clip-text text-transparent block mt-2 pb-1" style={{ lineHeight: '1.2' }}>
                   Bolu Gulung Guling
                 </span>
               </h1>
@@ -189,7 +189,7 @@ export default function HomePage() {
                 Platform E-Commerce Bolu Gulung Terintegrasi
               </h2>
               <p className="text-slate-300 text-sm leading-relaxed max-w-2xl">
-                Bolu Gulung Guling dibangun sebagai implementasi nyata kewirausahaan berbasis teknologi (Technopreneurship). Mengintegrasikan katalog produk dinamis, kalkulator ongkir logistik otomatis per gram, payment gateway QRIS & Virtual Account tanpa konfirmasi manual, serta dashboard admin mobile untuk operasional toko di HP.
+                Bolu Gulung Guling hadir sebagai toko kue online modern berbasis digital. Mengintegrasikan katalog produk lengkap, kalkulator ongkir otomatis per gram, payment gateway QRIS & berbagai metode bayar, serta sistem manajemen toko langsung dari HP.
               </p>
               
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-2">

@@ -123,13 +123,13 @@ export default function Footer() {
           <div>
             <p className="font-semibold text-white">© 2026 Bolu Gulung Guling • Kota Metro, Lampung</p>
             <p className="text-[11px] text-pink-300/80 mt-0.5">
-              Proyek Usaha Mandiri Mata Kuliah Technopreneurship 2026 (Digital Bakery Platform)
+              Toko Bolu Gulung Premium Online • Pengiriman Se-Indonesia
             </p>
           </div>
           <p className="flex items-center gap-1.5 justify-center text-[11px] text-pink-200 bg-pink-900/40 px-3 py-1.5 rounded-full border border-pink-800/40">
             <span>Dibuat dengan dedikasi</span>
             <Heart className="w-3.5 h-3.5 text-pink-500 fill-pink-500 animate-pulse" />
-            <span>oleh Tim Technopreneur</span>
+            <span>oleh Alen</span>
           </p>
         </div>
       </div>
