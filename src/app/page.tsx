@@ -62,7 +62,7 @@ export default function HomePage() {
     const text = encodeURIComponent(
       'Halo Admin Bolu Gulung Guling! Saya ingin tanya varian bolu yang ready dan promo hari ini.'
     );
-    window.open(`https://wa.me/6281278909988?text=${text}`, '_blank');
+    window.open(`https://wa.me/6285764952471?text=${text}`, '_blank');
   };
 
   return (

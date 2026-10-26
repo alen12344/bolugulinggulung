@@ -118,7 +118,7 @@ export default function TentangPage() {
                 <Phone className="w-5 h-5 text-pink-600 shrink-0 mt-0.5" />
                 <div>
                   <h4 className="font-extrabold text-sm text-gray-900">Layanan Pelanggan & WhatsApp:</h4>
-                  <p className="text-xs text-gray-700 font-bold mt-0.5">+62 812-7890-9988</p>
+                  <p className="text-xs text-gray-700 font-bold mt-0.5">+62 857-6495-2471</p>
                   <p className="text-[11px] text-gray-500">Menerima pesanan partai besar & katering pesanan khusus.</p>
                 </div>
               </div>

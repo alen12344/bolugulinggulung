@@ -120,7 +120,7 @@ export default function PaymentModal({ order, isOpen, onClose, onPaymentSuccess 
     const message = encodeURIComponent(
       `Halo Admin Bolu Gulung Guling, saya sudah memesan dengan No. Order: ${order.orderNumber}.\nTotal: Rp ${order.totalAmount.toLocaleString('id-ID')}.\nNama: ${order.customerName}.\nMohon diproses, terima kasih!`
     );
-    window.open(`https://wa.me/6281278909988?text=${message}`, '_blank');
+    window.open(`https://wa.me/6285764952471?text=${message}`, '_blank');
   };
 
   return (

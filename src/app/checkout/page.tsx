@@ -132,7 +132,7 @@ export default function CheckoutPage() {
       const msg = encodeURIComponent(
         `Halo Admin Bolu Gulung Guling!\nSaya telah menyelesaikan pembayaran untuk pesanan:\n• No. Order: ${createdOrder.orderNumber}\n• Pelanggan: ${createdOrder.customerName}\n• Total: Rp ${createdOrder.totalAmount.toLocaleString('id-ID')}\n• Kurir: ${createdOrder.courier.name} (${createdOrder.courier.service})\n\nMohon dicek dan dikirimkan resinya. Terima kasih!`
       );
-      window.open(`https://wa.me/6281278909988?text=${msg}`, '_blank');
+      window.open(`https://wa.me/6285764952471?text=${msg}`, '_blank');
     };
 
     return (
