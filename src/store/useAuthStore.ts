@@ -5,7 +5,6 @@ export interface AdminUser {
   name: string;
   role: string;
   email: string;
-  businessTitle: string;
   storeName: string;
   lastLogin?: string;
 }
@@ -18,32 +17,33 @@ interface AuthState {
   updateAdminProfile: (data: Partial<AdminUser>) => void;
 }
 
+// Admin password — hanya pemilik yang tahu
+const ADMIN_EMAIL = 'admin@bolugulungguling.com';
+const ADMIN_PASSWORD = 'BoluAlen@2026!';
+
 export const useAuthStore = create<AuthState>()(
   persist(
     (set) => ({
-      isAuthenticated: true, // Default active for easy grading & demo, can be toggled
+      isAuthenticated: false,
       adminUser: {
-        name: 'Alen (Founder & Owner)',
-        role: 'Chief Executive & Technopreneur',
-        email: 'admin@bolugulungguling.com',
-        businessTitle: 'Mata Kuliah Technopreneurship 2026',
+        name: 'Alen',
+        role: 'Owner & Founder',
+        email: ADMIN_EMAIL,
         storeName: 'Bolu Gulung Guling - Metro, Lampung',
-        lastLogin: new Date().toISOString(),
+        lastLogin: undefined,
       },
 
       login: (email, pass) => {
-        // Standard admin credentials or flexible demo pass
         if (
-          (email.trim().toLowerCase() === 'admin@bolugulungguling.com' && pass === 'admin123') ||
-          (email.trim().length > 3 && pass.length >= 4)
+          email.trim().toLowerCase() === ADMIN_EMAIL &&
+          pass === ADMIN_PASSWORD
         ) {
           set({
             isAuthenticated: true,
             adminUser: {
-              name: 'Alen (Founder & Owner)',
-              role: 'Chief Executive & Technopreneur',
-              email: email.trim().toLowerCase(),
-              businessTitle: 'Mata Kuliah Technopreneurship 2026',
+              name: 'Alen',
+              role: 'Owner & Founder',
+              email: ADMIN_EMAIL,
               storeName: 'Bolu Gulung Guling - Metro, Lampung',
               lastLogin: new Date().toISOString(),
             },
